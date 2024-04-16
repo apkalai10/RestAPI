@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.RestAPI.FirstClass">
+      <class name="com.RestAPI.PostTypes">
         <methods>
-          <include name="updateuser"/>
-          <include name="createUser"/>
+          <include name="UsingJson"/>
         </methods>
-      </class> <!-- com.RestAPI.FirstClass -->
+      </class> <!-- com.RestAPI.PostTypes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
